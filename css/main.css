@@ -6,12 +6,16 @@ html {
 
 body {
     margin: 0;
-    font-family: "Inconsolata";
+    font-family: "Inconsolata", sans-serif;
     height: 100%
 }
 
 h2 {
     margin: 30px auto 10px;
+}
+
+p {
+    margin: 0 0 15px;
 }
 
 a {
@@ -20,11 +24,11 @@ a {
 }
 
 a:hover {
-    text-decoration: underline
+    text-decoration: none;
 }
 
 hr {
-    padding: 3px;
+    margin: 5px 0 30px;
     border: 0;
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -32,13 +36,25 @@ hr {
 }
 
 #author-name {
-    font-size: 30px;
+    font-size: 45px;
     color: #272727;
     display: inline-block
 }
 
+.content .profile-picture {
+    width: 140px;
+    position: relative;
+    margin: -20px 10px 0 15px;
+    float: right;
+}
+
+p .content .profile-picture {
+    padding: 0;
+    margin: 0
+}
+
 .navbar {
-    padding: 50px 0 35px 0
+    padding-top: 40px;
 }
 
 .navbar img {
@@ -48,13 +64,13 @@ hr {
 .navbar-ul {
     display: inline-block;
     margin: 0;
-    padding: 5px 0 5px 0;
+    padding: 13px 5px 0;
     margin-left: 20px
 }
 
 .nav-list {
     list-style-type: none;
-    margin: 0 10px 0 5px;
+    margin: 0 0 0 15px;
 }
 
 .alignable, .pull-left, .pull-right {
@@ -101,10 +117,6 @@ hr {
     }
 }
 
-.content a:hover {
-    text-decoration: underline
-}
-
 .content ol {
     counter-reset: list
 }
@@ -141,18 +153,6 @@ hr {
     margin: 20px 0 20px 0;
     padding: 2px 8px 2px 8px;
     font-style: italic
-}
-
-.content .profile-picture {
-    width: 185px;
-    position: relative;
-    margin: -10px 0 0 15px;
-    float: right;
-}
-
-p .content .profile-picture {
-    padding: 0;
-    margin: 0
 }
 
 @media (max-width: 480px) {
