@@ -214,6 +214,6 @@ table tr th :last-child, table tr td :last-child {
     color: #686363;
 }
 
-#footer a {
+#footer a, #footer span {
     color: #272727;
 }
