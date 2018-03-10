@@ -54,7 +54,7 @@ p .content .profile-picture {
 }
 
 .navbar {
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .navbar img {
@@ -205,4 +205,15 @@ table tr th :first-child, table tr td :first-child {
 
 table tr th :last-child, table tr td :last-child {
     margin: 0
+}
+
+#footer {
+    text-align: center;
+    margin: 30px 0 15px;
+    font-size: 0.7em;
+    color: #686363;
+}
+
+#footer a {
+    color: #272727;
 }
