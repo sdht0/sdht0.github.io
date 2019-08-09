@@ -98,6 +98,14 @@ p .content .profile-picture {
     min-height: 100%
 }
 
+.self {
+    font-style: italic;
+}
+
+.listtitle {
+    font-weight: bold;
+}
+
 @media (max-width: 800px) {
     .container {
         max-width: 600px;
