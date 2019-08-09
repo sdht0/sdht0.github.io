@@ -24,11 +24,18 @@ p {
 
 a {
     text-decoration: none;
-    color: #FF0F00
 }
 
 a:hover {
     text-decoration: none;
+}
+
+a:not(.nostylelink) {
+    color: #FF0F00
+}
+
+a.nostylelink {
+    color: #000000
 }
 
 hr {
